@@ -9,12 +9,13 @@
     'website': 'https://modool.pro',
     'license': 'LGPL-3',
     'category': 'Sales/CRM',
-    'version': '14.0.1.0.0',
+    'version': '14.0.1.0.1',
     'depends': [
         'fleet',
         'contacts',
     ],
     'data': [
         'views/partner_views.xml',
+        'views/fleet_vehicle_views.xml',
     ],
 }
