@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!--    Allow fleet user see ALL vehicles-->
+    <function model="ir.rule" name="write">
+        <value eval="[ref('fleet.fleet_rule_contract_visibility_user')]"/>
+        <value eval="{'active': False}" />
+    </function>
+
+    <function model="ir.rule" name="write">
+        <value eval="[ref('fleet.fleet_rule_service_visibility_user')]"/>
+        <value eval="{'active': False}" />
+    </function>
+
+    <function model="ir.rule" name="write">
+        <value eval="[ref('fleet.fleet_rule_odometer_visibility_user')]"/>
+        <value eval="{'active': False}" />
+    </function>
+
+    <function model="ir.rule" name="write">
+        <value eval="[ref('fleet.fleet_rule_vehicle_visibility_user')]"/>
+        <value eval="{'active': False}" />
+    </function>
+
+</odoo>
