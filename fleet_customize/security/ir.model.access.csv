@@ -1,2 +1,2 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
-fleet_vehicle_odometer_access_right,fleet_vehicle_odometer_access_right,model_fleet_vehicle_odometer,fleet_group_user,1,1,1,1
+fleet_vehicle_odometer_access_right,fleet.vehicle.odometer fleet.user,fleet.model_fleet_vehicle_odometer,fleet.fleet_group_user,1,1,1,1
